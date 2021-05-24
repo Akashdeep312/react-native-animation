@@ -14,6 +14,22 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7FE592E96A899704FA7DA56E /* libPods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6982BFC1A3AF4CFBCF6FC073 /* libPods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		EC5BB33847BF43BB9E42C9F1 /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC231810A27147E4AD4FF9AD /* card1.png */; };
+		B42B0BBB43D847A2B28366C2 /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5626E843A63042319A62D518 /* card2.png */; };
+		8013B157149E421D9513CADD /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D858D1E524906827CA63C /* card3.png */; };
+		85A64842AA7B4AEBBBF58EF9 /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CB4434C1775421DB3E28EDE /* card4.png */; };
+		660A474AAD394615973D242B /* card5.png in Resources */ = {isa = PBXBuildFile; fileRef = C015D94715784C34A0810CA1 /* card5.png */; };
+		F8EF8C6557884AE982AE5510 /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = E559259DF0CA40DEBB8EE962 /* card6.png */; };
+		5B89B0F0139A4DF695F582BA /* animations.png in Resources */ = {isa = PBXBuildFile; fileRef = 908F31C76C03460996476AF1 /* animations.png */; };
+		724F534AA3FE4C3BB3D8CFF7 /* gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D3517B155004C70B3E53D60 /* gestures.png */; };
+		EA46C5B02277499EA8C5A508 /* heart-of-the-matter.png in Resources */ = {isa = PBXBuildFile; fileRef = AADF6587DAE74BE1B91186DB /* heart-of-the-matter.png */; };
+		EE77CAA3397646F4BFFA600E /* svg-animations.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F45B4EB9F304170B221432B /* svg-animations.png */; };
+		D956EA3B951A4D81AD7DE108 /* transitions.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A67D198C414ADDAF50F334 /* transitions.png */; };
+		7EDA7C263A584F6F9891BDD9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACAA90EF927E4799A6CAE21E /* icon.png */; };
+		87C6EE937EBF48AB99A95189 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = C42320DCDCBF45D4B9330213 /* splash.png */; };
+		8891E870895249F897592658 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2AB0D981CFC4FE7AD591591 /* SF-Pro-Text-Bold.otf */; };
+		7C61E0493DC24264AA2404C3 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E0D701117CE4ADCB5D63602 /* SF-Pro-Text-Regular.otf */; };
+		68DB1A7F29214117AC0A7CA7 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4EE66BF6C834F4C9BF07BBC /* SF-Pro-Text-Semibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +60,22 @@
 		882B10F3EEC1A6E89FD06AE5 /* Pods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests.debug.xcconfig"; path = "Target Support Files/Pods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests/Pods-gesturesAndAnimationWorkshop-gesturesAndAnimationWorkshopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E6B6D30764C00FF994FA51 /* Pods-gesturesAndAnimationWorkshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gesturesAndAnimationWorkshop.release.xcconfig"; path = "Target Support Files/Pods-gesturesAndAnimationWorkshop/Pods-gesturesAndAnimationWorkshop.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AC231810A27147E4AD4FF9AD /* card1.png */ = {isa = PBXFileReference; name = "card1.png"; path = "../assets/cards/card1.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5626E843A63042319A62D518 /* card2.png */ = {isa = PBXFileReference; name = "card2.png"; path = "../assets/cards/card2.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D9D858D1E524906827CA63C /* card3.png */ = {isa = PBXFileReference; name = "card3.png"; path = "../assets/cards/card3.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CB4434C1775421DB3E28EDE /* card4.png */ = {isa = PBXFileReference; name = "card4.png"; path = "../assets/cards/card4.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C015D94715784C34A0810CA1 /* card5.png */ = {isa = PBXFileReference; name = "card5.png"; path = "../assets/cards/card5.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E559259DF0CA40DEBB8EE962 /* card6.png */ = {isa = PBXFileReference; name = "card6.png"; path = "../assets/cards/card6.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		908F31C76C03460996476AF1 /* animations.png */ = {isa = PBXFileReference; name = "animations.png"; path = "../assets/examples/animations.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D3517B155004C70B3E53D60 /* gestures.png */ = {isa = PBXFileReference; name = "gestures.png"; path = "../assets/examples/gestures.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AADF6587DAE74BE1B91186DB /* heart-of-the-matter.png */ = {isa = PBXFileReference; name = "heart-of-the-matter.png"; path = "../assets/examples/heart-of-the-matter.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F45B4EB9F304170B221432B /* svg-animations.png */ = {isa = PBXFileReference; name = "svg-animations.png"; path = "../assets/examples/svg-animations.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20A67D198C414ADDAF50F334 /* transitions.png */ = {isa = PBXFileReference; name = "transitions.png"; path = "../assets/examples/transitions.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACAA90EF927E4799A6CAE21E /* icon.png */ = {isa = PBXFileReference; name = "icon.png"; path = "../assets/icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C42320DCDCBF45D4B9330213 /* splash.png */ = {isa = PBXFileReference; name = "splash.png"; path = "../assets/splash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2AB0D981CFC4FE7AD591591 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Bold.otf"; path = "../assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7E0D701117CE4ADCB5D63602 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Regular.otf"; path = "../assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4EE66BF6C834F4C9BF07BBC /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; name = "SF-Pro-Text-Semibold.otf"; path = "../assets/fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +166,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5B1A6A6E673A20EDD711A947 /* Pods */,
+				10DB73F6012C40B183CA43C1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +181,30 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		10DB73F6012C40B183CA43C1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AC231810A27147E4AD4FF9AD /* card1.png */,
+				5626E843A63042319A62D518 /* card2.png */,
+				6D9D858D1E524906827CA63C /* card3.png */,
+				7CB4434C1775421DB3E28EDE /* card4.png */,
+				C015D94715784C34A0810CA1 /* card5.png */,
+				E559259DF0CA40DEBB8EE962 /* card6.png */,
+				908F31C76C03460996476AF1 /* animations.png */,
+				8D3517B155004C70B3E53D60 /* gestures.png */,
+				AADF6587DAE74BE1B91186DB /* heart-of-the-matter.png */,
+				1F45B4EB9F304170B221432B /* svg-animations.png */,
+				20A67D198C414ADDAF50F334 /* transitions.png */,
+				ACAA90EF927E4799A6CAE21E /* icon.png */,
+				C42320DCDCBF45D4B9330213 /* splash.png */,
+				D2AB0D981CFC4FE7AD591591 /* SF-Pro-Text-Bold.otf */,
+				7E0D701117CE4ADCB5D63602 /* SF-Pro-Text-Regular.otf */,
+				F4EE66BF6C834F4C9BF07BBC /* SF-Pro-Text-Semibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +302,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EC5BB33847BF43BB9E42C9F1 /* card1.png in Resources */,
+				B42B0BBB43D847A2B28366C2 /* card2.png in Resources */,
+				8013B157149E421D9513CADD /* card3.png in Resources */,
+				85A64842AA7B4AEBBBF58EF9 /* card4.png in Resources */,
+				660A474AAD394615973D242B /* card5.png in Resources */,
+				F8EF8C6557884AE982AE5510 /* card6.png in Resources */,
+				5B89B0F0139A4DF695F582BA /* animations.png in Resources */,
+				724F534AA3FE4C3BB3D8CFF7 /* gestures.png in Resources */,
+				EA46C5B02277499EA8C5A508 /* heart-of-the-matter.png in Resources */,
+				EE77CAA3397646F4BFFA600E /* svg-animations.png in Resources */,
+				D956EA3B951A4D81AD7DE108 /* transitions.png in Resources */,
+				7EDA7C263A584F6F9891BDD9 /* icon.png in Resources */,
+				87C6EE937EBF48AB99A95189 /* splash.png in Resources */,
+				8891E870895249F897592658 /* SF-Pro-Text-Bold.otf in Resources */,
+				7C61E0493DC24264AA2404C3 /* SF-Pro-Text-Regular.otf in Resources */,
+				68DB1A7F29214117AC0A7CA7 /* SF-Pro-Text-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

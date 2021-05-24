@@ -1,29 +1,92 @@
-import React, { useEffect } from "react";
-import { View, StyleSheet } from "react-native";
-import Animated, { useAnimatedStyle, useSharedValue, withTiming } from "react-native-reanimated";
+import React from "react";
+// import { StatusBar } from "react-native";
+import { createStackNavigator } from "@react-navigation/stack";
+import { enableScreens } from "react-native-screens";
+import { NavigationContainer } from "@react-navigation/native";
 
-export default function App() {
-  const width = useSharedValue(0);
-  const style = useAnimatedStyle(() => ({
-    width: width.value,
-    height: 100,
-    backgroundColor: "blue"
-  }));
-  useEffect(() => {
-    width.value = withTiming(300, { duration: 5000 });
-  }, [width]);
-  return (
-    <View style={styles.container}>
-      <Animated.View style={style} />
-    </View>
-  );
-}
+import { Routes, StyleGuide } from "./src/components";
+// import LoadAssets from "./src/components/LoadAssets";
+import Examples from "./src/Examples";
+import Transitions from "./src/Transitions";
+import Animations from "./src/Animations";
+import Gestures from "./src/Gestures";
+import SVGAnimations from "./src/SVGAnimations";
+import HeartOfTheMatter from "./src/HeartOfTheMatter";
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
+enableScreens();
+
+// const fonts = {
+//   "SFProText-Bold": require("./assets/fonts/SF-Pro-Text-Bold.otf"),
+//   "SFProText-Semibold": require("./assets/fonts/SF-Pro-Text-Semibold.otf"),
+//   "SFProText-Regular": require("./assets/fonts/SF-Pro-Text-Regular.otf")
+// };
+
+// const assets = [...cardAssets, ...examplesAssets];
+
+const Stack = createStackNavigator<Routes>();
+
+const App = () => (
+  <NavigationContainer>
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: StyleGuide.palette.primary,
+          borderBottomWidth: 0
+        },
+        headerTintColor: "white"
+      }}
+    >
+      <Stack.Screen
+        name='Examples'
+        component={Examples}
+        options={{
+          title: "Gestures & Animations"
+        }}
+      />
+      <Stack.Screen
+        name='HeartOfTheMatter'
+        component={HeartOfTheMatter}
+        options={{
+          title: "The Heart of the Matter"
+        }}
+      />
+      <Stack.Screen
+        name='Transitions'
+        component={Transitions}
+        options={{
+          title: "Transitions"
+        }}
+      />
+      <Stack.Screen
+        name='Animations'
+        component={Animations}
+        options={{
+          title: "Animations"
+        }}
+      />
+      <Stack.Screen
+        name='Gestures'
+        component={Gestures}
+        options={{
+          title: "Gestures"
+        }}
+      />
+      <Stack.Screen
+        name='SVGAnimations'
+        component={SVGAnimations}
+        options={{
+          title: "SVG Animations"
+        }}
+      />
+    </Stack.Navigator>
+  </NavigationContainer>
+);
+
+// const App = () => (
+//   // <LoadAssets {...{ fonts, assets }}>
+//   //   <StatusBar barStyle='light-content' />
+//   <AppNavigator />
+//   // </LoadAssets>
+// );
+
+export default App;
