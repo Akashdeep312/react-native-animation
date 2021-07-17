@@ -3,12 +3,14 @@ import { createBox, createText, createTheme } from "@shopify/restyle";
 const theme = createTheme({
   colors: {
     primary: "#2CB9B0",
-    title: "#0C0D34",
-    button: "#0C0D34",
+    secondry: "#0C0D34",
     text: "rgba(12, 13, 52,0.7)",
+    secondryText: "rgba(12, 13, 52,0.5)",
     white: "white",
     grey: "rgba(12, 13, 52,0.05)",
     lightGrey: "#F4F0EF",
+    danger: "#FF0058",
+    darkGrey: "#8A8D90",
   },
   spacing: {
     s: 8,
@@ -36,13 +38,13 @@ const theme = createTheme({
     },
     title1: {
       fontSize: 28,
-      color: "title",
+      color: "secondry",
       fontFamily: "SFProDisplay-Bold",
     },
     title2: {
       fontSize: 24,
       lineHeight: 30,
-      color: "title",
+      color: "secondry",
       fontFamily: "SFProDisplay-Bold",
     },
     body: {
@@ -55,7 +57,7 @@ const theme = createTheme({
       fontSize: 15,
 
       fontFamily: "SFProDisplay-Medium",
-      color: "grey",
+      color: "darkGrey",
     },
   },
 });
